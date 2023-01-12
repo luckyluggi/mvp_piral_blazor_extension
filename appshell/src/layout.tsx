@@ -88,7 +88,7 @@ export const layout: Partial<ComponentsState> = {
       <Notifications />
       {/* <Menu type="general" /> */}
       <header style={{position: "fixed", width: "100%", top: 0, left: 0, background: "silver",}}>
-        <ExtensionSlot name="CloudLayout.Topbar" />
+        <ExtensionSlot name="Topbar" />
       </header>
       <div className="container">{children}</div>
     </div>
