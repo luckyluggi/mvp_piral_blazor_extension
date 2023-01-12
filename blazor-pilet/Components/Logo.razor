@@ -1,5 +1,9 @@
 ﻿@attribute [PiralExtension("Topbar")]
 
 <div>
-    Logo
+    Logo (@Icon.Value)
 </div>
+
+@code{
+    public icons.Icon Icon { get; set; } = new();
+}

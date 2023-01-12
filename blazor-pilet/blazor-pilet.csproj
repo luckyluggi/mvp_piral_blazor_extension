@@ -12,4 +12,8 @@
 		<PackageReference Include="Piral.Blazor.Utils" Version="7.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\icons\icons.csproj" />
+  </ItemGroup>
+
 </Project>

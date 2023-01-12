@@ -3,20 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor-pilet", "blazor-pilet\blazor-pilet.csproj", "{9483248C-A2F2-4BC0-B1C7-078BB844B7B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "blazor-pilet", "blazor-pilet\blazor-pilet.csproj", "{9483248C-A2F2-4BC0-B1C7-078BB844B7B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "icons", "icons\icons.csproj", "{F5690E18-5AB0-463A-8315-36B58B0B6682}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9483248C-A2F2-4BC0-B1C7-078BB844B7B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9483248C-A2F2-4BC0-B1C7-078BB844B7B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9483248C-A2F2-4BC0-B1C7-078BB844B7B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9483248C-A2F2-4BC0-B1C7-078BB844B7B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5690E18-5AB0-463A-8315-36B58B0B6682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5690E18-5AB0-463A-8315-36B58B0B6682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5690E18-5AB0-463A-8315-36B58B0B6682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5690E18-5AB0-463A-8315-36B58B0B6682}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BB75B67-FE04-4E33-B386-E4AE19C8C3AB}
 	EndGlobalSection
 EndGlobal
